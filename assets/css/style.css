@@ -46,7 +46,7 @@ h2 {
 }
 
 #navbar .logo {
-    width: 30px
+    width: 30px;
 }
 
 /* Header */
@@ -64,6 +64,13 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+
+/* Game library */
+#new-games .card,
+#favourite-games .card {
+    border: none;
+}
+
 
 
 /* grid visualisation CSS for testing
