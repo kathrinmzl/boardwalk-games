@@ -102,6 +102,10 @@ h2 {
     color: var(--secondary-color);
 }
 
+#contact .table-dark * { /* * to address all descendants of table-dark, otherwise the styles wont be applied */
+    background-color: transparent;
+}
+
 
 
 /* grid visualisation CSS for testing
